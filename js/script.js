@@ -36,7 +36,7 @@ const addStr = function (num) {
     str += `<li>
     <a href="drinkdetail_0.html">
       <div class="img-block">
-        <img src="img/try/${drinkPic[i]}" alt="" />
+        <img src="img/${drinkPic[i]}" alt="" />
       </div>
       <p>${drinkText[i]}</p>
     </a>
