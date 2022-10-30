@@ -33,15 +33,15 @@
 }
 
 .ingredient-content ul li:first-child .img-block {
-  background-image: url(../img/try/ingredient_img1.png);
+  background-image: url(../img/ingredient_img1.png);
 }
 
 .ingredient-content ul li:nth-child(2) .img-block {
-  background-image: url(../img/try/ingredient_img2.png);
+  background-image: url(../img/ingredient_img2.png);
 }
 
 .ingredient-content ul li:nth-child(3) .img-block {
-  background-image: url(../img/try/ingredient_img3.png);
+  background-image: url(../img/ingredient_img3.png);
 }
 
 .ingredient-content ul li .img-block {

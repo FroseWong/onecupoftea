@@ -1,12 +1,12 @@
 .breadcrumbList {
   /* background-color: #e3ded0; */
-  background-image: url(../img/try/texturetastic_gray.png);
+  background-image: url(../img/texturetastic_gray.png);
 }
 
 /*-----contact-main-----*/
 .contact-main {
   display: flex;
-  background-image: url(../img/try/texturetastic_gray.png);
+  background-image: url(../img/texturetastic_gray.png);
 }
 
 /*-----contactus-left-----*/
