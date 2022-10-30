@@ -1,0 +1,235 @@
+/*-----Detail mainblock-----*/
+
+.detail-mainblock {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.detail-mainblock .detail-mainblock_left {
+  flex-basis: 760px;
+  /* height: 525px; */
+  height: 600px;
+  /* outline: 5px solid rgb(128, 255, 0); */
+}
+
+.detail-mainblock .detail-mainblock_left img {
+  width: 100%;
+}
+
+.detail-mainblock_right {
+  background-image: url(../img/try/texturetastic_gray.png);
+  /* display: flex; */
+  width: auto;
+  /* flex-direction: column; */
+  /* border: 5px solid red; */
+  /* outline: 5px solid blue; */
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.detail-mainblock_right .detail-mainblock_right_top {
+  flex-basis: 0;
+
+  /* border: 5px solid red; */
+  flex-grow: 1;
+  color: #949486;
+  text-align: center;
+  /* padding-top: 100px; */
+  /* outline: solid 5px red; */
+  font-weight: bold;
+  padding-top: 100px;
+  height: 200px;
+}
+
+.detail-mainblock_right .detail-mainblock_right_top h1 {
+  font-size: 30px;
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+}
+
+.detail-mainblock_right .detail-mainblock_right_top h2 {
+  position: relative;
+}
+
+.detail-mainblock_right .detail-mainblock_right_top h2::before {
+  content: "";
+  width: 20px;
+  height: 2px;
+
+  background-color: #949486;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-350%, -50%);
+}
+
+.detail-mainblock_right .detail-mainblock_right_top h2::after {
+  content: "";
+  width: 20px;
+  height: 2px;
+
+  background-color: #949486;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(250%, -50%);
+}
+
+.detail-mainblock_right .detail-mainblock_right_mid {
+  flex-basis: 0;
+  flex-grow: 1;
+  /* padding: 40px; */
+  height: 200px;
+
+  /* outline: solid 5px green; */
+}
+
+.detail-mainblock_right .detail-mainblock_right_mid p {
+  /* text-align: center; */
+  padding-left: 30%;
+  /* line-height: 200px; */
+  padding-top: 50px;
+}
+
+.detail-mainblock_right .detail-mainblock_right_bottom {
+  flex-basis: 0;
+  flex-grow: 1;
+  /* outline: solid 5px yellow; */
+  height: 200px;
+}
+
+.detail-mainblock_right_bottom .pre-next {
+  height: 100px;
+  text-align: center;
+  /* outline: solid 5px red; */
+}
+
+.detail-mainblock_right_bottom .pre-next a {
+  color: #949486;
+  margin: 0 10px;
+  margin-top: 50px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.detail-mainblock_right_bottom .pre-next > a:hover {
+  /* opacity: 0.5; */
+  /* color: #bc955c; */
+  color: red;
+}
+
+.detail-mainblock_right_bottom .pref {
+  position: relative;
+}
+
+.detail-mainblock_right_bottom .pref::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 16px;
+  background-color: #949486;
+  position: absolute;
+  top: 4px;
+  left: 75px;
+}
+
+.detail-mainblock_right_bottom .all-list {
+}
+
+.detail-mainblock_right_bottom .all-list a {
+  /* height: 100px; */
+  display: block;
+  line-height: 50px;
+  width: 170px;
+  outline: 1px solid #949486;
+  font-weight: bold;
+  color: #949486;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+
+.detail-mainblock_right_bottom .all-list a:hover {
+  background-color: #949486;
+  color: white;
+}
+
+/*-----other drinks-----*/
+.other-drinks {
+  width: auto;
+
+  font-weight: bold;
+}
+
+.other-drinks h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #949486;
+  margin-top: 50px;
+  /* list-style: 90px; */
+}
+
+.other-drinks ul {
+  display: flex;
+  /* border: solid blue; */
+  padding: 0 100px;
+  margin-bottom: 30px;
+}
+
+.other-drinks ul li {
+  flex-basis: 260px;
+  /* border: solid red 5px; */
+  flex-grow: 1;
+  padding: 20px 20px;
+
+  /* outline: 1px solid #949486; */
+  line-height: 50px;
+  text-align: center;
+}
+
+.other-drinks ul li a {
+  color: #949486;
+  /* display: block; */
+}
+.other-drinks ul li a .img-block {
+  height: 250px;
+  width: 315px;
+  overflow: hidden;
+}
+
+.other-drinks ul li a img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.other-drinks ul li a:hover img {
+  transform: scale(110%);
+}
+
+.other-drinks ul li a p {
+  position: relative;
+}
+
+.other-drinks ul li a p::before {
+  content: "";
+  width: 20px;
+  height: 2px;
+
+  background-color: #949486;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-350%, -50%);
+}
+
+.other-drinks ul li a p::after {
+  content: "";
+  width: 20px;
+  height: 2px;
+
+  background-color: #949486;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(250%, -50%);
+}

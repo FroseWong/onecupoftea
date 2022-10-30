@@ -1,0 +1,83 @@
+.content {
+  width: 600px;
+  margin: 0 auto;
+  /* border: 5px solid red; */
+}
+
+/*-----message-block-----*/
+
+.message-block {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-block .message-block_top {
+  /* border: 5px solid blue; */
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.message-block .message-block_top .event {
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #bc955c;
+  color: white;
+}
+
+.message-block .message-block_top .event p {
+}
+
+.message-block .message-block_top > p {
+  margin-left: 20px;
+}
+
+.message-block h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.message-block_bottom {
+  margin-bottom: 20px;
+}
+
+.message-block_bottom i {
+  font-size: 30px;
+}
+
+.message-block_bottom a {
+  color: black;
+  margin-right: 10px;
+}
+
+/*-----photo-----*/
+.photo {
+  width: 600px;
+  height: 500px;
+
+  background-image: url(../img/try/discount1.png);
+  background-size: cover;
+  margin-bottom: 70px;
+}
+
+.back {
+  text-align: center;
+  /* width: 100px; */
+  /* border: 5px solid red; */
+  display: block;
+  margin: 0 auto;
+  color: #949486;
+  margin-bottom: 50px;
+  /* border: solid red 5px; */
+  width: 90px;
+}
+
+.back i {
+  transition: 0.3s;
+}
+
+.back:hover i {
+  padding-right: 10px;
+}

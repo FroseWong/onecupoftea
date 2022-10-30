@@ -1,0 +1,44 @@
+.main-block {
+  display: flex;
+  padding: 50px 30px;
+}
+
+.map-block {
+  width: 540px;
+  height: 360px;
+  margin-right: 50px;
+}
+
+.address-block {
+}
+
+.address-block ul {
+}
+
+.address-block ul li {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  width: 500px;
+  line-height: 45px;
+  border-bottom: 1px #949486 solid;
+}
+
+.address-block ul li a {
+  padding: 0 5px;
+  display: block;
+  color: #949486;
+}
+
+.address-block ul li .active {
+  background-color: #949486;
+  color: white;
+}
+
+.address-block ul li span {
+  margin: 0 10px;
+}
+
+.address-block ul li span:last-child {
+  /* margin-left: auto; */
+  float: right;
+}

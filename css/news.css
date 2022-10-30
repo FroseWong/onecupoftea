@@ -1,0 +1,138 @@
+/*-----top block-----*/
+.news-topblock {
+  width: auto;
+  /* border: solid red 5px; */
+}
+
+.news-topblock h1 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 150px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+/*-----news-choosing-block-----*/
+.news-choosing-block {
+  width: auto;
+  height: 150px;
+  /* outline: 5px solid red; */
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.news-choosing-block a {
+  display: block;
+  flex-basis: 100px;
+  height: 60px;
+  line-height: 60px;
+  outline: 5px solid #949486;
+  text-align: center;
+  margin: 0 30px;
+  color: #949486;
+  transition: 0.3s;
+}
+
+.news-choosing-block a:hover {
+  color: white;
+  background-color: #949486;
+}
+
+.news-choosing-block .active {
+  color: white;
+  background-color: #949486;
+}
+
+/*-----news content-----*/
+
+.news-content {
+}
+
+.news-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 105px;
+}
+
+.news-content ul li {
+  flex-basis: 280px;
+  height: 350px;
+  /* outline: 5px solid red; */
+  display: flex;
+  margin: 20px 35px;
+}
+
+.news-content ul li a {
+  display: flex;
+  /* border: 5px solid red; */
+  flex-direction: column;
+  color: black;
+  transition: 0.3s;
+}
+
+.news-content ul li a:hover {
+  background-color: white;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.news-content ul li a img {
+  transition: 0.3s;
+}
+
+.news-content ul li a:hover img {
+  transform: scale(105%);
+}
+
+.news-content ul li .news-img-block {
+  height: 250px;
+  width: auto;
+  flex-grow: 1;
+  overflow: hidden;
+  /* border: solid green 5px; */
+}
+
+.news-content ul li .news-img-block img {
+  width: 100%;
+}
+
+.news-content ul li .news-date-eventornew-block {
+  flex-grow: 1;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-content ul li .news-date-eventornew-block > p {
+}
+
+.news-content ul li .news-date-eventornew-block .event {
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #bc955c;
+  color: white;
+}
+
+.news-content ul li .news-date-eventornew-block .newitem {
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #b3bd75;
+  color: white;
+}
+
+.news-content ul li .news-text {
+  flex-grow: 1;
+
+  /* outline: solid blue 5px; */
+}
+
+.news-content ul li .news-text h3 {
+  padding-left: 20px;
+}

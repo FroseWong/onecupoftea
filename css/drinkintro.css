@@ -1,0 +1,142 @@
+/*-----intro select-----*/
+
+.intro-select {
+  height: 300px;
+  /* border: 5px solid red; */
+  font-weight: bold;
+  text-align: center;
+  color: #949486;
+  transition: all 0.3s;
+}
+
+.intro-select h2 {
+  padding-top: 80px;
+  margin-bottom: 8px;
+}
+
+.intro-select h1 {
+  /* text-align: center; */
+
+  font-size: 32px;
+
+  margin-bottom: 50px;
+}
+
+.intro-select ul {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-select ul li {
+  outline: 1px solid #949486;
+  line-height: 50px;
+  width: 170px;
+  text-align: center;
+  margin: 0 15px;
+}
+
+.intro-select ul li a {
+  color: #949486;
+  display: block;
+  transition: 0.5s;
+}
+
+.intro-select ul li a:hover {
+  background-color: #949486;
+  color: white;
+}
+
+.intro-select .active a {
+  background-color: #949486;
+  color: white;
+}
+
+/*-----drink list-----*/
+
+.drink-list {
+  width: auto;
+}
+
+.drink-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-right: 10px; */
+  /* padding-left: 15px; */
+  margin-bottom: 50px;
+  padding-right: 70px;
+  padding-left: 73px;
+  justify-content: flex-start;
+}
+
+.drink-list ul li {
+  flex-basis: 260px;
+  /* height: 240px; */
+  /* outline: solid red 5px; */
+
+  margin: 10px;
+  overflow: hidden;
+  /* border: 5px solid red; */
+  /* flex-grow: 1; */
+}
+
+.drink-list ul li a {
+  color: #949486;
+  display: flex;
+  flex-direction: column;
+}
+
+.drink-list ul li img {
+  width: 100%;
+}
+
+.drink-list ul li p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.drink-list ul li p:before {
+  content: "";
+  width: 20px;
+  height: 2px;
+
+  background-color: #949486;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-350%, -50%);
+}
+
+.drink-list ul li p:after {
+  content: "";
+  width: 20px;
+  height: 2px;
+
+  background-color: #949486;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(250%, -50%);
+}
+
+.drink-list .img-block {
+  width: 260px;
+  height: 200px;
+  /* border: 5px solid red; */
+
+  overflow: hidden;
+  transition: all 1s;
+}
+/* .drink-list a {
+  transform: scale(1.5);
+} */
+.drink-list ul li:hover img {
+  transform: scale(110%);
+}
+
+.drink-list ul li img {
+  transition: all 0.3s;
+}

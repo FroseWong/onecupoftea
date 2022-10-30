@@ -1,0 +1,526 @@
+@import url("reset.css");
+
+/*----- Modular -----*/
+
+.hidden {
+  display: none;
+}
+
+.out {
+}
+
+body {
+  font-size: 16px;
+  background-color: #e3ded0;
+  line-height: 1.6;
+
+  /* font-family: "M PLUS Rounded 1c", sans-serif; */
+}
+
+.content {
+  width: auto;
+  position: relative;
+  /* padding-left: 50px; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-----header intro-select-----*/
+.header .page a {
+  outline: 1px solid #bc955c;
+  color: #bc955c;
+}
+
+/* Head */
+.fa-bars {
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  /* border-bottom: red 5px solid; */
+  align-items: center;
+  /* position: fixed; */
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.header img {
+  width: 90px;
+  display: block;
+  /* border: 5px solid rgb(35, 221, 131); */
+  flex-shrink: 0;
+  margin-left: 50px;
+}
+
+.header ul {
+  display: flex;
+  margin-left: auto;
+}
+
+.header ul li {
+  justify-content: space-between;
+  margin-right: 60px;
+  display: block;
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+.header ul li a {
+  color: #5458488c;
+  display: block;
+  width: 110px;
+  line-height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: bold;
+  transition: all 0.3s;
+  outline: 1px solid transparent;
+  /* border: 5px solid red; */
+}
+
+.header ul li a:hover {
+  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); */
+  outline: 1px solid #bc955c;
+  color: #bc955c;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
+}
+
+.header ul li:before {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  top: 0;
+  left: 0;
+}
+
+/*-----breadcrumb-----*/
+
+.breadcrumbList {
+  background-color: #e3ded0;
+  /* border-bottom: 3px solid #949486; */
+  box-shadow: inset 0 0 11px 3px rgba(#000000, 0.6);
+}
+
+.breadcrumbList .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.breadcrumbList .breadcrumb {
+  display: flex;
+}
+
+.breadcrumbList .breadcrumb li {
+  padding: 20px 20px 20px 0px;
+  /* padding-left: 0; */
+}
+
+.breadcrumbList .breadcrumb li::before {
+  content: "/";
+  /* color: #fff; */
+  color: #949486;
+  padding-right: 20px;
+}
+
+.breadcrumbList .breadcrumb li:first-child::before {
+  content: "";
+}
+
+.breadcrumbList .breadcrumb li:last-child a {
+  color: #bc955c;
+  text-shadow: 1px 1px 3px#bc955c;
+}
+
+.breadcrumbList .breadcrumb a {
+  color: #949486;
+  font-weight: 100;
+  font-size: 16px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  transition: 0.3s;
+}
+
+.breadcrumbList .breadcrumb a:hover {
+  color: #bc955c;
+  /* outline: 1px solid #bc955c; */
+  text-shadow: 1px 1px 3px#bc955c;
+}
+
+/*-----Anima----- */
+.anima {
+  /* margin-top: 30px; */
+  background-image: url(../img/try/anima_sub1_addword.png);
+  height: 300px;
+  background-size: cover;
+}
+
+/* ---Event --- */
+.event {
+  height: 450px;
+  /* margin-top: 10px; */
+}
+
+.event ul {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  padding: 30px;
+}
+
+.event ul li {
+  /* border: 5px blue solid; */
+  position: relative;
+}
+
+.event ul li a {
+  display: block;
+  width: 380px;
+  height: 380px;
+  /* border: 5px solid black; */
+  box-shadow: 3px 3px 3px rgb(138, 138, 138);
+}
+
+.event ul li:first-child {
+  background-image: url(../img/try/greenmilk.png);
+  background-size: cover;
+}
+
+.event ul li:nth-child(2) {
+  background-image: url(../img/try/discount1.png);
+  background-size: cover;
+}
+
+.bottom-block {
+  position: absolute;
+  line-height: 40px;
+  width: 380px;
+  background-color: black;
+  /* color: #b1b89b; */
+  color: white;
+  text-align: center;
+  bottom: 0;
+}
+
+.event ul li:last-child {
+  background-image: url(../img/try/grapefruit.png);
+  background-size: cover;
+}
+
+.green {
+  position: absolute;
+  width: 380px;
+  line-height: 380px;
+
+  z-index: 1;
+
+  font-size: 32px;
+  color: transparent;
+  text-align: center;
+  transition: all 0.7s ease;
+}
+
+.green:hover {
+  text-shadow: 1px 1px black;
+  color: white;
+  background-color: rgba(81, 192, 90, 0.3);
+}
+
+/*-----seebackground1-----*/
+.seebackground1 {
+  background-image: url(../img/try/back.png);
+  height: 500px;
+  width: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.seebackground1 i {
+  /* color: white; */
+  font-size: 100px;
+  margin-right: 50px;
+}
+
+.seebackground1 p {
+  writing-mode: vertical-lr;
+  /* color: white; */
+  font-size: 30px;
+}
+
+/*-----About us ----- */
+
+.taste {
+  height: 450px;
+  width: auto;
+  display: flex;
+  /* margin-bottom: 50px; */
+  background-image: url(../img/try/texturetastic_gray.png);
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.taste-title {
+  /* border: 5px solid red; */
+  padding-left: 75px;
+  align-items: center;
+  display: flex;
+  background-image: url(../img/try/pngwing.com.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10px 280px;
+}
+
+.taste-title h2 {
+  writing-mode: vertical-lr;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.taste-content {
+  /* border: solid red 5px; */
+  flex-grow: 1;
+  background-image: url(../img/try/tea_bg_nocolor.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 60px;
+  padding-top: 100px;
+  background-size: 20%;
+  background-position: right bottom;
+}
+
+.taste-content h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.taste-content p {
+  color: #545454;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+/* -----intro----- */
+
+.intro {
+  height: 500px;
+  background-image: url(../img/try/Rectangle\ 2.png);
+  background-size: cover;
+  position: relative;
+}
+
+.intro p {
+  font-family: "Noto Sans TC", sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* text-shadow: 3px 3px 5px gray; */
+  line-height: 2;
+}
+
+/* ----- Drink intro ----- */
+.drink-intro {
+  /* height: 450px;
+  width: auto;
+  display: flex;
+  background-image: url(../img/try/texturetastic_gray_.png); */
+  height: 450px;
+  width: auto;
+  display: flex;
+  /* margin-bottom: 50px; */
+  background-image: url(../img/try/texturetastic_gray.png);
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.drink-intro_title {
+  /* padding-left: 75px;
+  align-items: center;
+  display: flex;
+  background-image: url(../img/try/leaf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10px 280px; */
+  padding-left: 75px;
+  align-items: center;
+  display: flex;
+  background-image: url(../img/try/pngwing.com.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10px 280px;
+}
+
+.drink-intro_title h2 {
+  /* writing-mode: vertical-lr;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px; */
+
+  writing-mode: vertical-lr;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.drink-intro_content {
+  /* flex-grow: 1;
+  background-image: url(../img/try/tastetea_nocolor.png);
+  background-size: 20%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding-left: 60px;
+  padding-top: 100px;
+  padding-bottom: 50px; */
+  flex-grow: 1;
+  background-image: url(../img/try/tastetea_nocolor.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 60px;
+  padding-top: 5 0px;
+  background-size: 20%;
+  background-position: right bottom;
+}
+
+.drink-intro_content h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.drink-intro_content p {
+  color: #545454;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.drink-intro_content a {
+  margin-top: 30px;
+  width: 130px;
+  line-height: 40px;
+  text-align: center;
+  display: block;
+  color: #545454;
+  border: 1px solid black;
+  transition: all 0.5s ease;
+}
+
+.drink-intro_content a:hover {
+  background-color: black;
+  color: white;
+  width: 170px;
+}
+
+.drink-intro_content a:hover i:first-child {
+  color: transparent;
+}
+
+/*-----seebackground2-----*/
+
+.seebackground2 {
+  /* border: 5px solid red; */
+  height: 500px;
+  background-image: url(../img/try/back2_mi.jpg.png);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.seebackground2 ul {
+  display: flex;
+}
+
+.seebackground2 ul li {
+  /* border: 5px solid blue; */
+  flex-grow: 1;
+  writing-mode: vertical-lr;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 150px;
+  color: white;
+  font-size: 32px;
+  position: relative;
+}
+
+.seebackground2 ul li i {
+  padding-left: 6px;
+  margin-bottom: 10px;
+}
+
+.seebackground2 ul li > p {
+  transition: all 0.6s 0.4s ease;
+}
+
+.seebackground2 ul li div p {
+  position: absolute;
+  /* color: transparent; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -34%);
+  color: transparent;
+  user-select: none;
+  transition: all 0.6s 0.4s ease;
+}
+
+.seebackground2 ul li:hover div p {
+  color: white;
+}
+
+.seebackground2 ul li:hover p {
+  color: transparent;
+}
+
+/*-----footer-----*/
+
+.footer {
+  padding-top: 10px;
+  height: 120px;
+  /* border: 5px solid red; */
+  background-image: url(../img/try/footer.jpg);
+  position: relative;
+  color: #b1b89b;
+}
+
+.footer h1 {
+  text-align: center;
+}
+
+.connection {
+  margin: 0 auto;
+  width: 400px;
+  /* border: solid red 5px; */
+  text-align: center;
+}
+
+.footer h2 {
+  display: inline-block;
+  margin-left: 10px;
+  /* padding-left: 300px; */
+}
+
+.footer p {
+  text-align: center;
+}
+
+.link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.link a {
+  color: #afb69a;
+  margin-right: 10px;
+}

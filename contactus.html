@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contactus.css" />
+    <title>聯絡我們 | 薏盃茶</title>
+  </head>
+  <body>
+    <!-- Out -->
+    <div class="out">
+      <!-- Header -->
+      <header class="header">
+        <a href="index.html">
+          <img src="img/try/logo.png" alt="" />
+        </a>
+        <i class="fa fa-bars hidden" aria-hidden="true"></i>
+        <ul>
+          <li><a href="drinkintro.html">飲品總覽</a></li>
+          <li><a href="ingredient.html">嚴選食材</a></li>
+          <li><a href="news.html">最新消息</a></li>
+          <li><a href="store.html">門市據點</a></li>
+          <li class="page"><a href="contactus.html">聯絡我們</a></li>
+        </ul>
+      </header>
+      <!-- Header End-->
+      <!-- breadcrumb-->
+      <div class="breadcrumbList">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="contactus.html">聯絡我們</a></li>
+          </ol>
+        </div>
+      </div>
+      <!-- breadcrumb End-->
+      <!-- contactus main -->
+      <div class="contact-main">
+        <div class="contactus-left">
+          <h1>聯絡我們</h1>
+          <h2>Contact us</h2>
+          <h3>「唯有好的品質才能延續」</h3>
+        </div>
+
+        <div class="contactus-right">
+          <div class="contactus-right_top">
+            <h1>反應意見</h1>
+            <img src="img/try/sorry.png" alt="" />
+            <p>
+              如果我們有服務不周，或是有哪裡需要再改進的地方，<br />再請您留下資訊，我們會盡速與您聯絡，感謝您。
+            </p>
+          </div>
+          <!-- form start -->
+          <form action="">
+            <!-- contactus-right_mid -->
+            <div class="contactus-right_mid">
+              <div class="contactus-right-name">
+                <div class="contactus-right-name_top">
+                  <label for="sex">姓名</label>
+                  <em class="em">*</em>
+                  <input
+                    type="radio"
+                    name="sex"
+                    value="male"
+                    id="male"
+                    required
+                  />
+                  <label for="male">先生</label>
+                  <input type="radio" name="sex" value="female" id="female" />
+                  <label for="female">小姐</label>
+                </div>
+                <div class="contactus-right-name_bottom">
+                  <input
+                    class="special"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="contactus-right-store">
+                <div class="contactus-right-store_top">
+                  <label for="store">反應門市</label>
+                  <em class="em">*</em>
+                </div>
+                <div class="contactus-right-store_bottom">
+                  <select class="special" name="store" id="store" required>
+                    <option value="">請選擇門市</option>
+                    <option value="台北開封店">台北開封店</option>
+                    <option value="北投公館店">北投公館店</option>
+                    <option value="台北古亭店">台北古亭店</option>
+                    <option value="蘆洲民族店">蘆洲民族店</option>
+                    <option value="土城頂埔店">土城頂埔店</option>
+                    <option value="板橋中正店">板橋中正店</option>
+                    <option value="新埔中正店">新埔中正店</option>
+                    <option value="竹東東林店">竹東東林店</option>
+                    <option value="竹東長春店">竹東長春店</option>
+                    <option value="台中西屯店">台中西屯店</option>
+                  </select>
+                </div>
+              </div>
+              <div class="contactus-right-tel">
+                <div class="contactus-right-tel_top">
+                  <label for="tel">聯絡電話</label>
+                  <em class="em">*</em>
+                </div>
+                <div class="contactus-right-tel_bottom">
+                  <input
+                    class="special"
+                    type="text"
+                    id="tel"
+                    name="tel"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="contactus-right-email">
+                <div class="contactus-right-email_top">
+                  <label for="email">電子信箱</label>
+                  <em class="em">*</em>
+                </div>
+                <div class="contactus-right-email_bottom">
+                  <input
+                    class="special"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="contactus-right-item">
+                <div class="contactus-right-item_top">
+                  <label for="item">反應項目</label>
+                  <em class="em">*</em>
+                </div>
+                <div class="contactus-right-item_bottom">
+                  <select class="special" name="item" id="item" required>
+                    <option value="">請選擇分類</option>
+                    <option value="品質">品質</option>
+                    <option value="服務">服務</option>
+                    <option value="效率">效率</option>
+                    <option value="其他">其他</option>
+                  </select>
+                </div>
+              </div>
+              <div class="contactus-right-content">
+                <div class="contactus-right-content_top">
+                  <label for="content">意見內容</label>
+                  <em class="em">*</em>
+                </div>
+                <div class="contactus-right-content_bottom">
+                  <textarea
+                    class="special"
+                    name="content"
+                    id="content"
+                    cols="30"
+                    rows="10"
+                    placeholder="我想說……"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <!-- <a class="send" href="">確認送出</a> -->
+              <button type="submit" class="send">確認送出</button>
+            </div>
+            <!-- contactus-right_mid End-->
+          </form>
+        </div>
+      </div>
+      <!-- contactus main End-->
+      <!-- footer -->
+      <footer class="footer">
+        <h1>聯絡我們</h1>
+        <div class="connection">
+          <h2><i class="fa-solid fa-phone"></i> 02-2734-0501</h2>
+          <h2><i class="fa-solid fa-envelope"></i> info@onecupoftea.com</h2>
+        </div>
+        <p>
+          本網站為緯育TibaMe前端工程師班第80學員專題作品，本平台僅提供學習、展示之用<br />參考資源：喫茶小舖、貢茶、可不可熟成紅茶
+        </p>
+        <div class="link">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://line.me/"><i class="fa-brands fa-line"></i></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </footer>
+      <!-- footer End-->
+    </div>
+    <!-- Out End-->
+  </body>
+</html>

@@ -1,0 +1,67 @@
+/*-----ingredient top-----*/
+.ingredient-top {
+  width: auto;
+  margin-top: 40px;
+  /* border: solid red 5px; */
+}
+
+.ingredient-top h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 190px;
+}
+
+/*-----ingredient-content-----*/
+
+.ingredient-content {
+  width: auto;
+}
+
+.ingredient-content ul {
+  margin-bottom: 50px;
+}
+
+.ingredient-content ul li {
+  display: flex;
+  height: 485px;
+}
+
+.ingredient-content ul li .img-block {
+  width: 50%;
+  /* outline: 5px solid red; */
+}
+
+.ingredient-content ul li:first-child .img-block {
+  background-image: url(../img/try/ingredient_img1.png);
+}
+
+.ingredient-content ul li:nth-child(2) .img-block {
+  background-image: url(../img/try/ingredient_img2.png);
+}
+
+.ingredient-content ul li:nth-child(3) .img-block {
+  background-image: url(../img/try/ingredient_img3.png);
+}
+
+.ingredient-content ul li .img-block {
+  background-size: cover;
+}
+
+.ingredient-content ul li .content-block {
+  width: 50%;
+  /* outline: 5px solid blue; */
+  text-align: center;
+  padding-top: 150px;
+}
+
+.ingredient-content ul li .content-block h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #949486;
+  margin-bottom: 20px;
+}
+
+.ingredient-content ul li .content-block p {
+  margin-bottom: 15px;
+}
