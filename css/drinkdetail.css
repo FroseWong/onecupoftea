@@ -115,7 +115,8 @@
 .detail-mainblock_right_bottom .pre-next > a:hover {
   /* opacity: 0.5; */
   /* color: #bc955c; */
-  color: red;
+  /* color: red; */
+  text-shadow: 1px 1px 3px #949486;
 }
 
 .detail-mainblock_right_bottom .pref {
