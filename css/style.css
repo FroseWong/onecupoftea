@@ -10,11 +10,10 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   background-color: #e3ded0;
   line-height: 1.6;
-
-  /* font-family: "M PLUS Rounded 1c", sans-serif; */
 }
 
 .content {
@@ -250,7 +249,7 @@ a {
   margin-right: 50px;
 }
 
-.seebackground1 p {
+.seebackground1 h3 {
   writing-mode: vertical-lr;
   /* color: white; */
   font-size: 30px;
@@ -279,7 +278,7 @@ a {
   background-position: 10px 280px;
 }
 
-.taste-title h2 {
+.taste-title h3 {
   writing-mode: vertical-lr;
   font-size: 30px;
   font-weight: bold;
@@ -299,14 +298,14 @@ a {
 }
 
 .taste-content h1 {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: bold;
 }
 
-.taste-content p {
+.taste-content h4 {
   color: #545454;
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 /* -----intro----- */
@@ -362,7 +361,7 @@ a {
   background-position: 10px 240px;
 }
 
-.drink-intro_title h2 {
+.drink-intro_title h3 {
   /* writing-mode: vertical-lr;
   font-size: 30px;
   font-weight: bold;
@@ -394,14 +393,14 @@ a {
 }
 
 .drink-intro_content h1 {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: bold;
 }
 
-.drink-intro_content p {
+.drink-intro_content h4 {
   color: #545454;
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .drink-intro_content a {

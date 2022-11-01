@@ -35,7 +35,7 @@
 }
 
 .message-block h1 {
-  font-size: 32px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
@@ -50,6 +50,11 @@
 .message-block_bottom a {
   color: black;
   margin-right: 10px;
+  transition: 0.3s;
+}
+
+.message-block_bottom a:hover {
+  color: #bc955c;
 }
 
 /*-----photo-----*/
