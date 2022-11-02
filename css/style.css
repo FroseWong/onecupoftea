@@ -135,7 +135,7 @@ a {
 
 .breadcrumbList .breadcrumb li:last-child a {
   color: #bc955c;
-  text-shadow: 1px 1px 3px#bc955c;
+  /* text-shadow: 1px 1px 3px#bc955c; */
 }
 
 .breadcrumbList .breadcrumb a {
@@ -148,7 +148,7 @@ a {
 
 .breadcrumbList .breadcrumb a:hover {
   color: #bc955c;
-  text-shadow: 1px 1px 3px#bc955c;
+  /* text-shadow: 1px 1px 3px#bc955c; */
 }
 
 /*-----Anima----- */
