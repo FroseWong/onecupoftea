@@ -17,7 +17,7 @@
   width: auto;
   height: 150px;
   /* outline: 5px solid red; */
-  font-size: 25px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,13 +26,16 @@
 
 .news-choosing-block a {
   display: block;
-  flex-basis: 100px;
-  height: 60px;
-  line-height: 60px;
-  outline: 5px solid #949486;
+  /* flex-basis: 170px; */
+  flex-basis: 130px;
+
+  /* height: 60px; */
+  line-height: 50px;
+  outline: 1px solid #949486;
   text-align: center;
   margin: 0 30px;
   color: #949486;
+  margin: 0 15px;
   transition: 0.3s;
 }
 
@@ -54,7 +57,9 @@
 .news-content ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 105px;
+  padding: 50px 30px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .news-content ul li {
@@ -62,7 +67,8 @@
   height: 350px;
   /* outline: 5px solid red; */
   display: flex;
-  margin: 20px 35px;
+  margin: 20px 50px;
+  /* flex-grow: 1; */
 }
 
 .news-content ul li a {
@@ -70,12 +76,15 @@
   /* border: 5px solid red; */
   flex-direction: column;
   color: black;
-  transition: 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  outline: 3px solid transparent;
 }
 
 .news-content ul li a:hover {
   background-color: white;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 3px 3px rgba(0, 0, 0, 0.1); */
+  outline: 1px solid #949486;
 }
 
 .news-content ul li a img {
@@ -91,6 +100,7 @@
   width: auto;
   flex-grow: 1;
   overflow: hidden;
+  outline: 1px solid #949486;
   /* border: solid green 5px; */
 }
 
@@ -101,7 +111,8 @@
 .news-content ul li .news-date-eventornew-block {
   flex-grow: 1;
   display: flex;
-  padding: 0 20px;
+  /* padding: 0 20px; */
+  padding: 15px 20px;
   justify-content: space-between;
   align-items: center;
 }
