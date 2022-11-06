@@ -55,9 +55,20 @@
           ></iframe>
         </div>
         <div class="address-block">
-          <ul>
+          <select
+            class="choose-address"
+            name="choose-address"
+            id="choose-address"
+          >
+            <option value="all">請選擇位置</option>
+            <option value="taipei">台北市</option>
+            <option value="newtaipei">新北市</option>
+            <option value="hsinchu">新竹縣</option>
+            <option value="taichung">台中市</option>
+          </select>
+          <ul class="address-sort">
             <li>
-              <a class="address active" href=""
+              <a class="address active taipei" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>台北開封店</span>
                 <span>台北市中正區開封街1段2-10號</span>
@@ -65,7 +76,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address taipei" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>北投公館店</span>
                 <span>台北市北投區公館路10號</span>
@@ -73,7 +84,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address taipei" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>台北古亭店</span>
                 <span>台北市大安區羅斯福路2段52號</span>
@@ -81,7 +92,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address newtaipei" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>蘆洲民族店</span>
                 <span>新北市蘆洲區民族路56號</span>
@@ -89,7 +100,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address newtaipei" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>土城頂埔店</span>
                 <span>新北市土城區中央路4段132號</span>
@@ -97,7 +108,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address newtaipei" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>板橋中正店</span>
                 <span>新北市板橋區中正路232號</span>
@@ -105,7 +116,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address hsinchu" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>新埔中正店</span>
                 <span>新竹縣新埔鎮中正路286號</span>
@@ -113,7 +124,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address hsinchu" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>竹東東林店</span>
                 <span>新竹縣竹東鎮東林路15號</span>
@@ -121,7 +132,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address hsinchu" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>竹東長春店</span>
                 <span>新竹縣竹東鎮長春路3段202號</span>
@@ -129,7 +140,7 @@
               </a>
             </li>
             <li>
-              <a class="address" href=""
+              <a class="address taichung" href=""
                 ><i class="fa-solid fa-location-dot"></i>
                 <span>台中西屯店</span>
                 <span>台中市北區西屯路1段428號</span>

@@ -3,6 +3,7 @@
   padding: 50px 30px;
   width: 90vw;
   margin: 0 auto;
+  margin-bottom: 100px;
   justify-content: center;
   /* align-items: center; */
 }
@@ -46,4 +47,19 @@
 .address-block ul li span:last-child {
   /* margin-left: auto; */
   float: right;
+}
+
+.address-block .choose-address {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  /* color: #949486; */
+  height: 30px;
+  margin-bottom: 20px;
+  border: none;
+  outline: 1px solid #949486;
+}
+
+.address-block .choose-address:focus {
+  /* background-color: white; */
 }

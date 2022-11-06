@@ -25,13 +25,19 @@
   text-align: center;
   background-color: #bc955c;
   color: white;
+  margin: 0 20px 0 0;
+  /* border: 3px solid red; */
 }
 
 .message-block .message-block_top .event p {
 }
 
 .message-block .message-block_top > p {
-  margin-left: 20px;
+  /* margin-left: 20px; */
+}
+
+.message-block .message-block_top .date {
+  /* border: solid red 3px; */
 }
 
 .message-block h1 {
