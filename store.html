@@ -15,6 +15,8 @@
   <body>
     <!-- out -->
     <div class="out">
+      <div class="overlay hidden"></div>
+
       <!-- Header -->
       <header class="header">
         <a href="index.html">
@@ -27,9 +29,55 @@
           <li><a href="news.html">最新消息</a></li>
           <li class="page"><a href="store.html">門市據點</a></li>
           <li><a href="contactus.html">聯絡我們</a></li>
+          <li><a class="membernavbar" href="#">會員專區</a></li>
         </ul>
       </header>
       <!-- Header End-->
+      <!-- member modal -->
+      <div class="member-modal hidden">
+        <div class="member-modal_top">
+          <h5>會員登入 / 註冊</h5>
+          <a href=""><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div class="member-modal_mid">
+          <form class="member-form" action="" method="get">
+            <input
+              class="username"
+              type="text"
+              name="tel"
+              placeholder="使用者名稱"
+              required
+            />
+            <input
+              class="login-password"
+              type="password"
+              name="password"
+              placeholder="密碼"
+              required
+            />
+            <input class="login" type="submit" value="會員登入" />
+          </form>
+        </div>
+        <div class="member-modal_bottom">
+          <a class="forget" href="">忘記密碼?</a>
+          <span>沒有會員?</span>
+          <a class="joinnow" href="register.html">立即加入！</a>
+        </div>
+        <div class="forgetpassword">
+          <a class="relogin" href="">重新登入</a>
+          <form class="forgetpassword-form" action="">
+            <input
+              class="forgetemail"
+              name="email"
+              type="email"
+              placeholder="e-mail"
+              required
+            />
+            <input class="forgetsend" type="submit" value="傳送變更密碼信" />
+          </form>
+        </div>
+      </div>
+      <!-- member modal End-->
       <!-- breadcrumb-->
       <div class="breadcrumbList">
         <div class="container">
@@ -174,6 +222,7 @@
       <!-- footer End-->
     </div>
     <!-- out End-->
+    <script src="js/membernavbar.js"></script>
     <script src="js/store.js"></script>
   </body>
 </html>

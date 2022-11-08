@@ -51,12 +51,12 @@ const addStr = function (num) {
   }
 };
 
-chooseAll[0].addEventListener("click", (e) => {
+chooseAll[0]?.addEventListener("click", (e) => {
   e.preventDefault();
   addStr(0);
 });
 
-chooseAll[1].addEventListener("click", (e) => {
+chooseAll[1]?.addEventListener("click", (e) => {
   e.preventDefault();
   addStr(1);
 });

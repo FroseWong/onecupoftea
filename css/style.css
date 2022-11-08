@@ -31,6 +31,15 @@ a {
   text-decoration: none;
 }
 
+/*-----delete up and down btn-----*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 /*-----header intro-select-----*/
 .header .page a {
   outline: 1px solid #bc955c;
@@ -102,6 +111,141 @@ a {
   left: 0;
 }
 
+/*-----member modal-----*/
+.member-modal {
+  /* display: none; */
+  position: fixed;
+  width: 300px;
+  height: 270px;
+  /* top: 40px; */
+  background-color: #e3ded0;
+  top: calc(50%-150px);
+  left: calc(50% - 150px);
+  /* bottom: 40px; */
+  z-index: 10;
+
+  overflow: hidden;
+}
+
+.member-modal .member-modal_top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  background-color: #aad2b2;
+  color: white;
+  padding: 0 10px;
+}
+
+.member-modal .member-modal_top a {
+  color: white;
+  display: block;
+}
+.fa-xmark {
+}
+
+.member-modal .member-modal_mid {
+  padding-top: 10px;
+  padding: 20px 15px 0;
+}
+
+.member-modal .member-modal_mid input {
+  border: none;
+  outline: 1px solid #949486;
+  width: 100%;
+  height: 35px;
+}
+
+.member-modal .member-modal_mid input:not(.member-modal_mid input:last-child) {
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.member-modal .member-modal_mid .login {
+  margin-top: 20px;
+  color: white;
+  background-color: #949486;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.member-modal .member-modal_mid .login:hover {
+  background-color: #76766b;
+}
+.member-modal .member-modal_bottom {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.member-modal .member-modal_bottom .forget {
+  color: #949486;
+  margin-right: 30px;
+}
+
+.member-modal .member-modal_bottom .joinnow {
+  color: #bc955c;
+}
+.member-modal .member-modal_bottom span {
+}
+
+.overlay {
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.forgetpassword {
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  background-color: #e3ded0;
+  z-index: 15;
+  top: 270px;
+  /* top: 50px; */
+  left: 0;
+  transition: 0.3s;
+  padding: 0 10px;
+}
+
+.forgetpassword a {
+  display: block;
+  /* border: solid red 5px; */
+  width: 100%;
+  margin: 20px auto;
+  /* border: 5px solid red; */
+  line-height: 50px;
+  color: #949486;
+  /* border: solid red 5px; */
+  text-align: center;
+}
+
+.forgetpassword input {
+  border: none;
+  outline: 1px solid #949486;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 30px;
+}
+
+.forgetpassword .forgetemail {
+  padding-left: 5px;
+}
+
+.forgetpassword .forgetsend {
+  color: white;
+  background-color: #949486;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.forgetpassword .forgetsend:hover {
+  background-color: #76766b;
+}
 /*-----breadcrumb-----*/
 
 .breadcrumbList {
