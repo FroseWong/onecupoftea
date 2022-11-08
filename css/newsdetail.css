@@ -70,7 +70,8 @@
 
   background-image: url(../img/discount1.png);
   background-size: cover;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
+  margin-bottom: 30px;
 }
 
 .back {

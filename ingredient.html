@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/ingredient.css" />
     <title>嚴選食材 | 薏盃茶</title>
@@ -90,6 +91,7 @@
       <!-- breadcrumb End-->
       <!-- ingredient top -->
       <div class="ingredient-top">
+        <h5>Ingredients</h5>
         <h1>茶的美味，極致體現</h1>
       </div>
       <!-- ingredient top End-->
@@ -98,7 +100,11 @@
         <ul>
           <li>
             <div class="img-block"></div>
-            <div class="content-block">
+            <div
+              class="content-block"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <h2>優質環境</h2>
               <p>
                 要有一杯好茶，茶葉必然是重要的，<br />茶葉的柔軟度、形狀、色澤都會保持在最佳狀態。
@@ -110,7 +116,11 @@
           </li>
 
           <li>
-            <div class="content-block">
+            <div
+              class="content-block"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <h2>用心曬茶</h2>
               <p>
                 曬茶葉時，我們一般選擇攤在竹蓆上，<br />並曬個、二小時，期間也會翻茶葉。
@@ -123,7 +133,11 @@
 
           <li>
             <div class="img-block"></div>
-            <div class="content-block">
+            <div
+              class="content-block"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <h2>鑽研泡茶</h2>
               <p>
                 泡茶時，份量、時間、溫度都是相當重要的，<br />我們將會以最複雜的程序來泡茶。
@@ -157,6 +171,10 @@
     </footer>
     <!-- footer End-->
     <!-- Out End-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/membernavbar.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -74,7 +74,7 @@ sendBtn.addEventListener("click", (e) => {
     if (emailInput.value == "")
       str += str == "" ? "請輸入信箱" : "\n請輸入信箱";
     if (passwordInput.value == "")
-      str += str == "" ? "請設定密碼" : "\n請設定密碼";
+      str += str == "" ? "請輸入密碼" : "\n請輸入密碼";
     if (repasswordInput.value == "")
       str += str == "" ? "請再次輸入密碼" : "\n請再次輸入密碼";
     if (passwordInput.value !== repasswordInput.value)

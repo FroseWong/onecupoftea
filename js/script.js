@@ -25,16 +25,30 @@ const drinkPic0 = [
   "drinks_42_760.png",
 ];
 
+const drinkLink0 = [
+  "drinkdetail_0.html",
+  "drinkdetail_1.html",
+  "drinkdetail_2.html",
+  "drinkdetail_3.html",
+  "drinkdetail_4.html",
+  "drinkdetail_5.html",
+  "drinkdetail_6.html",
+  "drinkdetail_7.html",
+];
+
+const drinkLink1 = ["drinkdetail_8.html", "drinkdetail_9.html"];
+
 const drinkPic1 = ["drinks_25_760.png", "drinks_46_760.png"];
 
 const addStr = function (num) {
   let str = "";
   const drinkText = num === 0 ? drinkText0 : drinkText1;
   const drinkPic = num === 0 ? drinkPic0 : drinkPic1;
+  const drinkLink = num === 0 ? drinkLink0 : drinkLink1;
 
   for (let i = 0; i < drinkText.length; i++) {
     str += `<li>
-    <a href="drinkdetail_0.html">
+    <a href="${drinkLink[i]}">
       <div class="img-block">
         <img src="img/${drinkPic[i]}" alt="" />
       </div>
