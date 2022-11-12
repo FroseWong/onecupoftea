@@ -10,7 +10,7 @@
   font-size: 20px;
   /* line-height: 150px; */
   font-weight: bold;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .news-topblock h1 {
@@ -137,6 +137,7 @@
   text-align: center;
   background-color: #bc955c;
   color: white;
+  margin: 0;
 }
 
 .news-content ul li .news-date-eventornew-block .newitem {

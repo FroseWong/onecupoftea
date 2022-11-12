@@ -29,6 +29,17 @@
   /* border: 3px solid red; */
 }
 
+.message-block .message-block_top .newitem {
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #b3bd75;
+  color: white;
+  margin: 0 20px 0 0;
+  /* border: 3px solid red; */
+}
+
 .message-block .message-block_top .event p {
 }
 
@@ -66,11 +77,12 @@
 /*-----photo-----*/
 .photo {
   width: 600px;
-  height: 500px;
+  height: 600px;
 
-  background-image: url(../img/discount1.png);
+  /* background-image: url(../img/discount1.png); */
   background-size: cover;
   /* margin-bottom: 70px; */
+  outline: 1px solid;
   margin-bottom: 30px;
 }
 

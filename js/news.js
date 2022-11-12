@@ -15,6 +15,7 @@ const eventList = [
     class: "event",
     classText: "活動",
     newsText: "自備飲料杯省10元",
+    link: "newsdetail_1.html",
   },
   {
     img: "img/collectpoint.png",
@@ -22,6 +23,7 @@ const eventList = [
     class: "event",
     classText: "活動",
     newsText: "滿59元集1點",
+    link: "newsdetail_2.html",
   },
 ];
 
@@ -32,6 +34,7 @@ const newitemList = [
     class: "newitem",
     classText: "新品",
     newsText: "柚子茶新上架",
+    link: "newsdetail_3.html",
   },
   {
     img: "img/greenmilk.png",
@@ -39,6 +42,7 @@ const newitemList = [
     class: "newitem",
     classText: "新品",
     newsText: "奶綠新上架",
+    link: "newsdetail_4.html",
   },
 ];
 const combineList = eventList.concat(newitemList);
