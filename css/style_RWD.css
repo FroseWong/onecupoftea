@@ -1,0 +1,222 @@
+@media screen and (max-width: 414px) {
+  body {
+    /* color: red; */
+  }
+
+  .out {
+    position: relative;
+  }
+
+  .fa-bars.hidden {
+    display: flex;
+    /* border: 3px solid red; */
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    padding-left: 27px;
+    height: 70px;
+    position: fixed;
+    z-index: 6;
+  }
+
+  .header img {
+    width: 70px;
+    margin-left: 20px;
+  }
+
+  .header ul {
+    flex-direction: column;
+    position: absolute;
+    /* left: 0px;
+    top: 70px; */
+    left: -210px;
+    top: 72px;
+    /* border: 3px solid red; */
+    z-index: 20;
+
+    /* height: 500px; */
+  }
+
+  .header ul li {
+    outline: 3px solid #949486;
+    /* background-color: white; */
+    background-color: #e3ded0;
+  }
+
+  .header ul li a {
+    width: 200px;
+    /* width: 100%; */
+    font-size: 14px;
+  }
+
+  .content {
+    margin-top: 70px;
+  }
+
+  .anima {
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .event {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .event ul li a {
+    width: 330px;
+    height: 330px;
+  }
+
+  .bottom-block {
+    width: 330px;
+  }
+
+  .green {
+    width: 330px;
+    line-height: 330px;
+  }
+
+  .event .fa-arrow-left {
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .event .fa-arrow-right {
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .event .fa-arrow-left.hidden,
+  .event .fa-arrow-right.hidden {
+    display: none;
+  }
+
+  /* seebackground1 */
+  .seebackground1 {
+    background-size: auto;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+  }
+  /* teste */
+
+  .taste {
+    /* height: 360px; */
+    height: 290px;
+    padding: 0;
+    padding-right: 10px;
+    margin-bottom: 30px;
+  }
+
+  .taste-content {
+    padding: 0;
+    padding-top: 30px;
+    padding-left: 10px;
+    /* padding-bottom: 30px; */
+  }
+
+  .taste-title h3 {
+    font-size: 20px;
+  }
+
+  .taste-title {
+    padding-left: 10px;
+  }
+
+  .taste-title {
+    background-position: 0px 232px;
+  }
+
+  .taste-content h1 {
+    font-size: 24px;
+  }
+
+  .taste-content h4 {
+    font-size: 18px;
+  }
+
+  /* intro */
+  .intro {
+    background-position: -400px -40px;
+  }
+
+  .intro h5 {
+    font-size: 16px;
+  }
+
+  /* drink intro */
+
+  .drink-intro {
+    padding: 0;
+    padding-right: 10px;
+    margin-bottom: 30px;
+  }
+
+  .drink-intro_title {
+    padding-left: 10px;
+    background-position: 1px 200px;
+    /* background-position: 0, 50px; */
+  }
+
+  .drink-intro_title h3 {
+    font-size: 20px;
+  }
+
+  .drink-intro_content {
+    padding: 0;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .drink-intro_content h1 {
+    font-size: 24px;
+  }
+
+  .drink-intro_content h4 {
+    font-size: 18px;
+  }
+
+  .drink-intro_content a {
+    font-size: 14px;
+  }
+
+  /* seebackground2 */
+
+  .seebackground2 {
+    /* background-size: cover; */
+    /* background-size: 100%; */
+    /* background-size: contain; */
+    background-size: 150%;
+    height: 300px;
+    /* background-repeat: no-repeat; */
+    background-attachment: local;
+  }
+
+  .seebackground2 ul li {
+    padding-top: 80px;
+    font-size: 20px;
+  }
+
+  .seebackground2 ul li div h3 {
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -34%);
+  }
+
+  .footer {
+    font-size: 14px;
+    height: 150px;
+    padding: 10px 10px;
+  }
+}

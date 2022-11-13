@@ -7,6 +7,7 @@
 }
 
 .out {
+  overflow: hidden;
 }
 
 body {
@@ -58,6 +59,7 @@ input[type="number"] {
   align-items: center;
   /* position: fixed; */
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  background-image: url(../img/texturetastic_gray.png);
   /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3); */
 }
 
@@ -72,6 +74,7 @@ input[type="number"] {
 .header ul {
   display: flex;
   margin-left: auto;
+  transition: 0.3s;
 }
 
 .header ul li {
@@ -119,7 +122,7 @@ input[type="number"] {
   height: 270px;
   /* top: 40px; */
   background-color: #e3ded0;
-  top: calc(50%-150px);
+  top: calc(50% - 150px);
   left: calc(50% - 150px);
   /* bottom: 40px; */
   z-index: 10;
@@ -190,6 +193,17 @@ input[type="number"] {
 
 .overlay {
   /* position: absolute; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 8;
+}
+
+.headeroverlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -318,6 +332,7 @@ input[type="number"] {
 .event ul {
   display: flex;
   justify-content: center;
+  transition: 0.3s;
   /* align-items: flex-end; */
   /* padding: 30px; */
 }
@@ -336,12 +351,12 @@ input[type="number"] {
   box-shadow: 3px 3px 3px rgb(138, 138, 138);
 }
 
-.event ul li:first-child {
+.event > ul li:first-child {
   background-image: url(../img/greenmilk.png);
   background-size: cover;
 }
 
-.event ul li:nth-child(2) {
+.event > ul li:nth-child(2) {
   background-image: url(../img/discount1.png);
   background-size: cover;
 }
@@ -357,7 +372,7 @@ input[type="number"] {
   bottom: 0;
 }
 
-.event ul li:last-child {
+.event > ul li:last-child {
   background-image: url(../img/grapefruit.png);
   background-size: cover;
 }
@@ -379,6 +394,58 @@ input[type="number"] {
   text-shadow: 1px 1px black;
   color: white;
   background-color: rgba(81, 192, 90, 0.3);
+}
+
+.fa-arrow-left {
+  z-index: 3;
+  /* color: #949486; */
+  color: white;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.fa-arrow-right {
+  z-index: 3;
+  /* color: #949486; */
+  color: white;
+
+  display: block;
+  width: 30px;
+  line-height: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  text-align: center;
+}
+
+.slider-div {
+  width: 100%;
+  height: 100px;
+  /* height: 30px; */
+  /* background-color: red; */
+  /* outline: 3px slid red; */
+  /* border: 3px solid red; */
+}
+
+.slider-div .slider-dots {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #949486;
+  /* z-index: 100; */
+}
+
+.slider-div .slider-dots.focus {
+  background-color: #bc955c;
+}
+
+.event .fa-arrow-left.hidden,
+.event .fa-arrow-right.hidden {
+  display: none;
 }
 
 /*-----seebackground1-----*/
@@ -600,7 +667,7 @@ input[type="number"] {
   /* justify-content: center; */
   padding-top: 150px;
   color: white;
-  font-size: 32px;
+  font-size: 30px;
   position: relative;
 }
 
@@ -609,11 +676,11 @@ input[type="number"] {
   margin-bottom: 10px;
 }
 
-.seebackground2 ul li > p {
+.seebackground2 ul li > h3 {
   transition: all 0.6s 0.4s ease;
 }
 
-.seebackground2 ul li div p {
+.seebackground2 ul li div h3 {
   position: absolute;
   /* color: transparent; */
   top: 50%;
@@ -624,11 +691,11 @@ input[type="number"] {
   transition: all 0.6s 0.4s ease;
 }
 
-.seebackground2 ul li:hover div p {
+.seebackground2 ul li:hover div h3 {
   color: white;
 }
 
-.seebackground2 ul li:hover p {
+.seebackground2 ul li:hover h3 {
   color: transparent;
 }
 
