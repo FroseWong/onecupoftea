@@ -15,14 +15,14 @@ const drinkText0 = [
 ];
 const drinkText1 = ["柚子茶", "奶綠"];
 const drinkPic0 = [
-  "drinks_2_760.png",
-  "drinks_6_760.png",
-  "drinks_8_760.png",
-  "drinks_15_760.png",
-  "drinks_16_760.png",
-  "drinks_20_760.png",
-  "drinks_41_760.png",
-  "drinks_42_760.png",
+  "drinks_2_760.jpg",
+  "drinks_6_760.jpg",
+  "drinks_8_760.jpg",
+  "drinks_15_760.jpg",
+  "drinks_16_760.jpg",
+  "drinks_20_760.jpg",
+  "drinks_41_760.jpg",
+  "drinks_42_760.jpg",
 ];
 
 const drinkLink0 = [
@@ -38,7 +38,7 @@ const drinkLink0 = [
 
 const drinkLink1 = ["drinkdetail_8.html", "drinkdetail_9.html"];
 
-const drinkPic1 = ["drinks_25_760.png", "drinks_46_760.png"];
+const drinkPic1 = ["drinks_25_760.jpg", "drinks_46_760.jpg"];
 
 const addStr = function (num) {
   let str = "";

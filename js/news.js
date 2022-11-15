@@ -2,7 +2,7 @@ const eventNewAll = document.querySelectorAll(".event-new-btn");
 const newsContent = document.querySelector(".news-content");
 const eventList = [
   {
-    img: "img/discount1.png",
+    img: "img/discount1.jpg",
     date: "2022-11-02",
     class: "event",
     classText: "活動",
@@ -10,7 +10,7 @@ const eventList = [
     link: "newsdetail_0.html",
   },
   {
-    img: "img/bringmycup.png",
+    img: "img/bringmycup.jpg",
     date: "2022-09-23",
     class: "event",
     classText: "活動",
@@ -18,7 +18,7 @@ const eventList = [
     link: "newsdetail_1.html",
   },
   {
-    img: "img/collectpoint.png",
+    img: "img/collectpoint.jpg",
     date: "2022-09-26",
     class: "event",
     classText: "活動",
@@ -29,7 +29,7 @@ const eventList = [
 
 const newitemList = [
   {
-    img: "img/grapefruit.png",
+    img: "img/grapefruit.jpg",
     date: "2022-10-22",
     class: "newitem",
     classText: "新品",
@@ -37,7 +37,7 @@ const newitemList = [
     link: "newsdetail_3.html",
   },
   {
-    img: "img/greenmilk.png",
+    img: "img/greenmilk.jpg",
     date: "2022-11-13",
     class: "newitem",
     classText: "新品",

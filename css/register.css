@@ -1,12 +1,12 @@
 .breadcrumbList {
   /* background-color: #e3ded0; */
-  background-image: url(../img/texturetastic_gray.png);
+  background-image: url(../img/texturetastic_gray.jpg);
 }
 
 /*-----register-main-----*/
 .register-main {
   display: flex;
-  background-image: url(../img/texturetastic_gray.png);
+  background-image: url(../img/texturetastic_gray.jpg);
 }
 
 /*-----register-left-----*/
@@ -337,7 +337,7 @@
   padding-left: 10px;
   padding-right: 10px;
   /* position: relative; */
-  /* background-image: url(../img/down-arrow.png); */
+
   /* background-repeat: no-repeat;
   background-size: 20px auto;
   background-position: 275px center; */
