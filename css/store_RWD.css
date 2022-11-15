@@ -1,0 +1,55 @@
+@media screen and (max-width: 414px) {
+  .main-block {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .map-block {
+    /* width: 540px; */
+    /* height: 360px; */
+    /* width: 375px; */
+    /* height: 250px; */
+    width: 300px;
+    height: 250px;
+
+    /* margin-right: 50px;
+    margin-top: 20px; */
+    margin: 30px auto;
+  }
+
+  .address-block ul li {
+    width: 100%;
+    line-height: 35px;
+  }
+
+  .address-block ul li span:last-child {
+    float: none;
+  }
+
+  .address-block ul li span {
+    margin: 0;
+  }
+
+  .address-sort .address span {
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+
+  .address-block .choose-address {
+    width: 90vw;
+    /* width: 80vw; */
+
+    /* padding-left: 150px; */
+    /* padding-left: 45%; */
+    /* transform: translate(-50%, 0); */
+    /* text-align: left; */
+  }
+
+  .address-block .choose-address option {
+    width: 30px;
+  }
+
+  /* .choose-address {
+    width: 10px;
+  } */
+}

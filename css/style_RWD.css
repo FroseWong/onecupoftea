@@ -1,8 +1,4 @@
 @media screen and (max-width: 414px) {
-  body {
-    /* color: red; */
-  }
-
   .out {
     position: relative;
   }
@@ -33,9 +29,10 @@
     position: absolute;
     /* left: 0px;
     top: 70px; */
-    left: -210px;
-    top: 72px;
-    /* border: 3px solid red; */
+    left: -260px;
+
+    top: 73px;
+
     z-index: 20;
 
     /* height: 500px; */
@@ -51,6 +48,10 @@
     width: 200px;
     /* width: 100%; */
     font-size: 14px;
+  }
+
+  .breadcrumbList {
+    margin-top: 60px;
   }
 
   .content {
@@ -135,7 +136,8 @@
   }
 
   .taste-title {
-    background-position: 0px 232px;
+    /* background-position: 0px 232px; */
+    background-position: 0px 202px;
   }
 
   .taste-content h1 {

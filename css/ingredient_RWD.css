@@ -1,0 +1,39 @@
+@media screen and (max-width: 414px) {
+  .ingredient-top h5 {
+    font-size: 16px;
+  }
+  .ingredient-top h1 {
+    font-size: 24px;
+  }
+
+  .ingredient-content ul li {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .ingredient-content ul li .img-block {
+    height: 300px;
+    /* width: 100%; */
+  }
+
+  .ingredient-content ul li .img-block {
+    width: 100%;
+  }
+
+  .ingredient-content ul li .content-block {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .ingredient-content ul li .content-block h2 {
+    font-size: 22px;
+  }
+
+  .ingredient-content ul li .content-block p {
+    font-size: 14px;
+  }
+
+  .ingredient-content ul li:nth-child(2) .img-block {
+    order: -1;
+  }
+}

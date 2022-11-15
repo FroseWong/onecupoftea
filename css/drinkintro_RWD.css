@@ -1,0 +1,21 @@
+@media screen and (max-width: 414px) {
+  .intro-select {
+    /* margin-top: px; */
+  }
+
+  .intro-select {
+    height: 250px;
+  }
+
+  .intro-select h5 {
+    font-size: 16px;
+  }
+
+  .intro-select h1 {
+    font-size: 24px;
+  }
+
+  .drink-list ul li p {
+    font-size: 14px;
+  }
+}

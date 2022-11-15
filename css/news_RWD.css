@@ -1,0 +1,33 @@
+@media screen and (max-width: 414px) {
+  .news-topblock h5 {
+    font-size: 16px;
+  }
+
+  .news-topblock h1 {
+    font-size: 24px;
+  }
+
+  .news-choosing-block {
+    height: 100px;
+  }
+
+  .news-content ul {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .news-content ul li .news-img-block {
+    height: 250px;
+  }
+
+  .news-content ul li a {
+    background-color: white;
+    outline: 1px solid #949486;
+  }
+
+  .news-content ul li .news-text h3 {
+    padding-bottom: 20px;
+  }
+}

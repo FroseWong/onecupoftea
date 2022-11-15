@@ -145,17 +145,52 @@ const init = function () {
   }
 };
 
+const initRWD = function () {
+  let str = "";
+  let space = "__";
+  for (let i = 0; i < address.length; i++) {
+    str += ` <li>
+    <a class="address  ${address[i].loc}" href=""
+      ><i class="fa-solid fa-location-dot"></i>
+      <span>${address[i].name}</span><br>
+      <i class="fa-solid fa-map"><span></i>${address[i].address}</span> <br>
+      <i class="fa-solid fa-phone"></i><span>${address[i].tel}</span>
+    </a>
+  </li>`;
+  }
+  addressSort.innerHTML = str;
+  addressAll = document.querySelectorAll(".address");
+  for (let i = 0; i < 10; i++) {
+    addressAll[i].addEventListener("click", (e) => {
+      e.preventDefault();
+      changeMap(address[i].mapcode);
+      clearallclass();
+      addressAll[i].classList.add("active");
+    });
+  }
+};
+
 const sort = function (location) {
   let str = "";
   if (location === "taipei") {
     for (let i = 0; i < addressTaipei.length; i++) {
-      str += `<li>
+      str +=
+        window.innerWidth > 414
+          ? `<li>
   <a class="address ${location}" href=""
     ><i class="fa-solid fa-location-dot"></i>
     <span>${addressTaipei[i].name}</span>
     <span>${addressTaipei[i].address}</span>
     <span>${addressTaipei[i].tel}</span>
   </a>
+</li>`
+          : ` <li>
+<a class="address  ${location}" href=""
+  ><i class="fa-solid fa-location-dot"></i>
+  <span>${addressTaipei[i].name}</span><br>
+  <i class="fa-solid fa-map"><span></i>${addressTaipei[i].address}</span> <br>
+  <i class="fa-solid fa-phone"></i><span>${addressTaipei[i].tel}</span>
+</a>
 </li>`;
     }
     addressSort.innerHTML = str;
@@ -170,13 +205,23 @@ const sort = function (location) {
     }
   } else if (location === "newtaipei") {
     for (let i = 0; i < addressNewTaipei.length; i++) {
-      str += `<li>
+      str +=
+        window.innerWidth > 414
+          ? `<li>
   <a class="address ${location}" href=""
     ><i class="fa-solid fa-location-dot"></i>
     <span>${addressNewTaipei[i].name}</span>
     <span>${addressNewTaipei[i].address}</span>
     <span>${addressNewTaipei[i].tel}</span>
   </a>
+</li>`
+          : ` <li>
+<a class="address  ${location}" href=""
+  ><i class="fa-solid fa-location-dot"></i>
+  <span>${addressNewTaipei[i].name}</span><br>
+  <i class="fa-solid fa-map"><span></i>${addressNewTaipei[i].address}</span> <br>
+  <i class="fa-solid fa-phone"></i><span>${addressNewTaipei[i].tel}</span>
+</a>
 </li>`;
     }
     addressSort.innerHTML = str;
@@ -191,13 +236,23 @@ const sort = function (location) {
     }
   } else if (location === "hsinchu") {
     for (let i = 0; i < addressHsinchu.length; i++) {
-      str += `<li>
+      str +=
+        window.innerWidth > 414
+          ? `<li>
   <a class="address ${location}" href=""
     ><i class="fa-solid fa-location-dot"></i>
     <span>${addressHsinchu[i].name}</span>
     <span>${addressHsinchu[i].address}</span>
     <span>${addressHsinchu[i].tel}</span>
   </a>
+</li>`
+          : ` <li>
+<a class="address  ${location}" href=""
+  ><i class="fa-solid fa-location-dot"></i>
+  <span>${addressHsinchu[i].name}</span><br>
+  <i class="fa-solid fa-map"><span></i>${addressHsinchu[i].address}</span> <br>
+  <i class="fa-solid fa-phone"></i><span>${addressHsinchu[i].tel}</span>
+</a>
 </li>`;
     }
     addressSort.innerHTML = str;
@@ -212,13 +267,23 @@ const sort = function (location) {
     }
   } else if (location === "taichung") {
     for (let i = 0; i < addressTaichung.length; i++) {
-      str += `<li>
+      str +=
+        window.innerWidth > 414
+          ? `<li>
   <a class="address ${location}" href=""
     ><i class="fa-solid fa-location-dot"></i>
     <span>${addressTaichung[i].name}</span>
     <span>${addressTaichung[i].address}</span>
     <span>${addressTaichung[i].tel}</span>
   </a>
+</li>`
+          : ` <li>
+<a class="address  ${location}" href=""
+  ><i class="fa-solid fa-location-dot"></i>
+  <span>${addressTaichung[i].name}</span><br>
+  <i class="fa-solid fa-map"><span></i>${addressTaichung[i].address}</span> <br>
+  <i class="fa-solid fa-phone"></i><span>${addressTaichung[i].tel}</span>
+</a>
 </li>`;
     }
     addressSort.innerHTML = str;
@@ -235,6 +300,14 @@ const sort = function (location) {
   // return str;
 };
 
+const mapRWD = function () {
+  if (window.innerWidth <= 414) {
+    displayMap.height = "250";
+  } else {
+    displayMap.height = "450";
+  }
+};
+
 for (let i = 0; i < 10; i++) {
   addressAll[i].addEventListener("click", (e) => {
     changeMap(address[i].mapcode);
@@ -244,13 +317,30 @@ for (let i = 0; i < 10; i++) {
 }
 
 chooseAddressBtn.addEventListener("change", function (location) {
-  console.log(location.target.value);
-
-  if (location.target.value === "all") init();
+  if (location.target.value === "all") {
+    window.innerWidth <= 414 ? initRWD() : init();
+  }
   if (location.target.value === "taipei") sort("taipei");
   if (location.target.value === "newtaipei") sort("newtaipei");
   if (location.target.value === "hsinchu") sort("hsinchu");
   if (location.target.value === "taichung") sort("taichung");
-
-  //taichung
 });
+
+// addEventListener("resize", (e) => {
+//   mapRWD();
+// });
+mapRWD();
+
+// addEventListener("resize", (e) => {
+//   if (window.innerWidth <= 414) {
+//     initRWD();
+//   } else {
+//     init();
+//   }
+// });
+
+if (window.innerWidth <= 414) {
+  initRWD();
+} else {
+  init();
+}

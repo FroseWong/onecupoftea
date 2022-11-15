@@ -1,0 +1,107 @@
+@media screen and (max-width: 414px) {
+  .register-main {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .register-left {
+    width: 100%;
+  }
+
+  .register-left h1 {
+    font-size: 24px;
+  }
+
+  .register-left h3 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .register-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .register-right_top h1 {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .register-right-name {
+    width: 100%;
+  }
+
+  .register-right-store {
+    width: 100%;
+  }
+  .register-right-tel {
+    width: 100%;
+  }
+
+  .register-right-email {
+    width: 100%;
+  }
+
+  .register-right-password {
+    width: 100%;
+  }
+
+  .register-right-repassword {
+    width: 100%;
+  }
+
+  .register-right-address_bottom {
+    flex-wrap: wrap;
+  }
+  .county,
+  .district {
+    /* margin-left: 2px; */
+  }
+
+  .county,
+  .district {
+    width: 163px;
+
+    /* width: 50%; */
+  }
+
+  div[role="tw-city-selector"] {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .register-right-birthday {
+    width: 100%;
+  }
+
+  .birthday {
+    line-height: 30px;
+  }
+
+  .register-right-frequency {
+    width: 100%;
+  }
+
+  .register-right-favorite {
+    width: 100%;
+  }
+
+  .register-right-discount {
+    width: 100%;
+  }
+
+  .register-right-discount .register-right-discount_bottom input {
+    width: 15%;
+  }
+
+  label[for="agree"] {
+    margin-right: 30px;
+  }
+
+  .register-right-discount .register-right-discount_bottom {
+    width: 100%;
+    justify-content: center;
+  }
+}

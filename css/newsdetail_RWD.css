@@ -1,0 +1,16 @@
+@media screen and (max-width: 414px) {
+  .content {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .message-block h1 {
+    font-size: 24px;
+  }
+
+  .photo {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}

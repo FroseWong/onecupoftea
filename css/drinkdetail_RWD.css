@@ -1,0 +1,65 @@
+@media screen and (max-width: 414px) {
+  .detail-mainblock {
+    flex-direction: column;
+  }
+
+  .detail-mainblock .detail-mainblock_left {
+    height: auto;
+    flex-basis: 330px;
+  }
+
+  .detail-mainblock_right .detail-mainblock_right_top {
+    padding-top: 30px;
+  }
+
+  .detail-mainblock_right .detail-mainblock_right_top {
+    height: 120px;
+  }
+
+  .detail-mainblock_right .detail-mainblock_right_top h1 {
+    font-size: 24px;
+  }
+
+  .detail-mainblock_right .detail-mainblock_right_top h6 {
+    font-size: 14px;
+  }
+
+  .detail-mainblock_right .detail-mainblock_right_mid p {
+    padding: 30px 0;
+    padding-left: 25%;
+    /* text-align: center; */
+    font-size: 14px;
+    /* margin-bottom: 70px; */
+  }
+
+  .detail-mainblock_right .detail-mainblock_right_mid {
+    height: 100px;
+  }
+
+  .detail-mainblock_right .detail-mainblock_right_bottom {
+    height: 180px;
+    margin-top: 30px;
+  }
+
+  .other-drinks h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .other-drinks ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .other-drinks ul {
+    padding: 0;
+  }
+
+  .other-drinks ul li {
+    padding: 0;
+  }
+
+  .other-drinks ul li a p {
+    font-size: 14px;
+  }
+}

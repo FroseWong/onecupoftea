@@ -12,13 +12,17 @@ fabarsBtn.addEventListener("click", function () {
     headerOverlay.classList.remove("hidden");
   }
   if (checkStatus === 0) {
-    headerUl.style.left = "-210px";
+    headerUl.style.left = "-260px";
+    // headerUl.style.left = "2px";
+
     headerOverlay.classList.add("hidden");
   }
 });
 
 headerOverlay.addEventListener("click", function () {
-  headerUl.style.left = "-210px";
+  headerUl.style.left = "-260px";
+  // headerUl.style.left = "2px";
+
   headerOverlay.classList.add("hidden");
   checkStatus = 0;
 });

@@ -1,0 +1,75 @@
+@media screen and (max-width: 414px) {
+  .contact-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactus-left {
+    width: 100%;
+  }
+
+  .contactus-left h1 {
+    font-size: 24px;
+  }
+
+  .contactus-left h6 {
+    font-size: 14px;
+  }
+
+  .contactus-left h3 {
+    font-size: 20px;
+  }
+
+  .contactus-right {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contactus-right-name {
+    width: 100%;
+  }
+
+  .contactus-right-store {
+    width: 100%;
+  }
+
+  .contactus-right-tel {
+    width: 100%;
+  }
+
+  .contactus-right-email {
+    width: 100%;
+  }
+
+  .contactus-right_top h1 {
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .contactus-right_top p {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+
+  .contactus-right_top img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contactus-right_mid {
+    padding: 0 10px;
+  }
+
+  .contactus-right-store .contactus-right-store_bottom select {
+    height: 32px;
+  }
+
+  .contactus-right-item .contactus-right-item_bottom select {
+    height: 32px;
+  }
+}
