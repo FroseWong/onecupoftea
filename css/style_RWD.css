@@ -62,6 +62,15 @@
     height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-image: url("../img/anima_sub1_addword.jpg");
+  }
+
+  .anima-text-h1,
+  .anima-text-h3,
+  .anima-text-h3hidden,
+  .anima-left,
+  .anima-right {
+    display: none;
   }
 
   .event {

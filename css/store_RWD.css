@@ -43,6 +43,7 @@
     /* padding-left: 45%; */
     /* transform: translate(-50%, 0); */
     /* text-align: left; */
+    text-align: -webkit-center;
   }
 
   .address-block .choose-address option {

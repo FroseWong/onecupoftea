@@ -37,7 +37,7 @@ const liChange = function () {
       inh3All[2].style.color = "white";
     });
   } else {
-    seebackground2Li.forEach((li) => li.removeEventListener());
+    seebackground2Li.forEach((li) => li?.removeEventListener());
   }
 };
 
