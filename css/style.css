@@ -48,6 +48,7 @@ input[type="number"] {
   width: 100vw;
   background-color: black;
   z-index: 9999;
+  transition: 0.3s;
 }
 .relative {
   position: relative;
@@ -62,6 +63,7 @@ input[type="number"] {
   height: 240px;
   pointer-events: none;
   opacity: 0;
+  transition: 0.3s;
 }
 
 .loader-ring.-loading {
