@@ -78,8 +78,9 @@
 .photo {
   width: 600px;
   height: 600px;
+  /* style="background-image: url(../img/discount1.jpg)" */
+  background-image: url("../img/discount1.jpg");
 
- 
   background-size: cover;
   /* margin-bottom: 70px; */
   outline: 1px solid;
