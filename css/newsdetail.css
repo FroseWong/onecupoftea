@@ -87,6 +87,22 @@
   margin-bottom: 30px;
 }
 
+.p1 {
+  background-image: url("../img/bringmycup.jpg");
+}
+
+.p2 {
+  background-image: url("../img/collectpoint.jpg");
+}
+
+.p3 {
+  background-image: url("../img/grapefruit.jpg");
+}
+
+.p4 {
+  background-image: url("../img/greenmilk.jpg");
+}
+
 .back {
   text-align: center;
   /* width: 100px; */
