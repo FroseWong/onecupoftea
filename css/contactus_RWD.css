@@ -67,9 +67,11 @@
 
   .contactus-right-store .contactus-right-store_bottom select {
     height: 32px;
+    font-size: 16px;
   }
 
   .contactus-right-item .contactus-right-item_bottom select {
     height: 32px;
+    font-size: 16px;
   }
 }
