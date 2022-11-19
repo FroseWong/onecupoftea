@@ -53,7 +53,15 @@ input[type="number"] {
 .relative {
   position: relative;
 }
-
+.loader-out {
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.3s;
+}
+.loader-out.-loading {
+  pointer-events: auto;
+  opacity: 1;
+}
 .loader-ring {
   position: absolute;
   top: 50%;
@@ -61,14 +69,6 @@ input[type="number"] {
   margin: -120px 0 0 -120px;
   width: 240px;
   height: 240px;
-  pointer-events: none;
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.loader-ring.-loading {
-  pointer-events: auto;
-  opacity: 1;
 }
 
 .loader-ring-light {
