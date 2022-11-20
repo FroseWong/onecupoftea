@@ -1,3 +1,5 @@
+"use strict";
+
 const loaderOut = document.querySelector(".loader-out");
 const loaderRing = document.querySelector(".loader-ring");
 

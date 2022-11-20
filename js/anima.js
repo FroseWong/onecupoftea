@@ -1,3 +1,5 @@
+"use strict";
+
 const buttons = document.querySelectorAll(".anima-right a");
 const drinkpackBtn = document.querySelector(".drinkpack");
 const drinkreturnBtn = document.querySelector(".drinkreturn");

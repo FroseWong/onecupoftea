@@ -1,4 +1,4 @@
-console.log("hi");
+"use strict";
 
 const backBtn = document.querySelector(".back");
 

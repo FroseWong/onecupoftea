@@ -1,3 +1,5 @@
+"use strict";
+
 const sendBtn = document.querySelector(".send");
 const dataAgreeCheckBox = document.querySelector(".data-agree");
 const nameInput = document.querySelector(".nameInput");

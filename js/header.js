@@ -1,3 +1,5 @@
+"use strict";
+
 const fabarsBtn = document.querySelector(".fa-bars");
 const headerUl = document.querySelector(".header ul");
 const headerOverlay = document.querySelector(".headeroverlay");

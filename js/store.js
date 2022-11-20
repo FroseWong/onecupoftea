@@ -1,3 +1,5 @@
+"use strict";
+
 let addressAll = document.querySelectorAll(".address");
 const displayMap = document.querySelector(".display-map");
 const chooseAddressBtn = document.querySelector(".choose-address");

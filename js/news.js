@@ -1,3 +1,5 @@
+"use strict";
+
 const eventNewAll = document.querySelectorAll(".event-new-btn");
 const newsContent = document.querySelector(".news-content");
 const eventList = [

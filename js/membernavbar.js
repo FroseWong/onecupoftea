@@ -1,3 +1,5 @@
+"use strict";
+
 const membernavbar = document.querySelector(".membernavbar");
 const memberModal = document.querySelector(".member-modal");
 const overlay = document.querySelector(".overlay");

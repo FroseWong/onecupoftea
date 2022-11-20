@@ -1,3 +1,5 @@
+"use strict";
+
 const seebackground2Li = document.querySelectorAll(".seebackground2-li");
 const seebackground2Ul = document.querySelector(".seebackground2-ul");
 const outh3All = document.querySelectorAll(".outh3");

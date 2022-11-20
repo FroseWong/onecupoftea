@@ -1,3 +1,5 @@
+"use strict";
+
 const animaBtn = document.querySelector(".anima");
 const eventUl = document.querySelector(".event--ul");
 const leftBtn = document.querySelector(".fa-arrow-left");
