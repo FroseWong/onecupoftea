@@ -67,9 +67,15 @@
   /* padding-right: 10px; */
   /* padding-left: 15px; */
   margin-bottom: 50px;
-  padding-right: 70px;
-  padding-left: 73px;
+  /* padding-right: 70px;
+  padding-left: 73px; */
   justify-content: flex-start;
+
+  width: 60vw;
+  margin: 0 auto 50px;
+  /* margin-left: 0; */
+  /* border: solid red 3px; */
+  /* outline: 3px solid red; */
 }
 
 .drink-list ul li {
@@ -80,7 +86,7 @@
   margin: 10px;
   overflow: hidden;
   /* border: 5px solid red; */
-  /* flex-grow: 1; */
+  flex-grow: 1;
 }
 
 .drink-list ul li a {
