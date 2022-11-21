@@ -73,6 +73,7 @@
 
   width: 60vw;
   margin: 0 auto 50px;
+  margin-left: 387px;
   /* margin-left: 0; */
   /* border: solid red 3px; */
   /* outline: 3px solid red; */
@@ -86,7 +87,10 @@
   margin: 10px;
   overflow: hidden;
   /* border: 5px solid red; */
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  /* border: solid red 3px; */
+  display: flex;
+  justify-content: center;
 }
 
 .drink-list ul li a {
