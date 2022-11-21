@@ -3,6 +3,10 @@
 .detail-mainblock {
   display: flex;
   box-sizing: border-box;
+  width: 70vw;
+  margin: 0 auto;
+  /* border: solid 3px red; */
+  /* border: solid red 3px; */
 }
 
 .detail-mainblock .detail-mainblock_left {
@@ -179,17 +183,24 @@
   /* border: solid blue; */
   padding: 0 100px;
   margin-bottom: 30px;
+  width: 80vw;
+  margin: 0 auto;
+  /* border: solid red 3px; */
 }
 
 .other-drinks ul li {
   flex-basis: 260px;
   /* border: solid red 5px; */
   flex-grow: 1;
-  padding: 20px 20px;
-
+  /* padding: 20px 20px; */
+  padding: 0;
+  /* margin: 0 auto; */
   /* outline: 1px solid #949486; */
   line-height: 50px;
   text-align: center;
+  /* border: solid red 3px; */
+  display: flex;
+  justify-content: center;
 }
 
 .other-drinks ul li a {
@@ -213,6 +224,7 @@
 
 .other-drinks ul li a p {
   position: relative;
+  text-align: center;
 }
 
 .other-drinks ul li a p::before {
