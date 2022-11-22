@@ -369,6 +369,11 @@ input[type="number"] {
   /* text-shadow: 1px 1px 3px#bc955c; */
 }
 
+.breadcrumbList .breadcrumb li:last-child {
+  color: #bc955c;
+  /* text-shadow: 1px 1px 3px#bc955c; */
+}
+
 .breadcrumbList .breadcrumb a {
   color: #949486;
   font-weight: 100;
